@@ -1,7 +1,7 @@
 import { Model } from 'mongoose';
 import { Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
-import {User} from "src/Users/models/user.schema"
+import {User} from "src/Users/models/User.Schema"
 import { DtoFindOneByEmail, DtoUser, DtoUserLogin } from '../dtos/dto.user';
 import * as bcrypt from 'bcrypt';
 import { JwtService } from '@nestjs/jwt';
