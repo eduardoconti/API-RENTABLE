@@ -1,11 +1,11 @@
 {
   "version": 2,
   "env": {
-    "DATABASE_URL": "@DATABASE_URL",
-    "SECRET": "@SECRET",
-    "CLOUDINARY_NAME": "@CLOUDINARY_NAME",
-    "CLOUDINARY_API_KEY": "@CLOUDINARY_API_KEY",
-    "CLOUDINARY_API_SECRET": "@CLOUDINARY_API_SECRET"
+    "DATABASE_URL": "@db_url",
+    "SECRET": "@secret",
+    "CLOUDINARY_NAME": "@cl_name",
+    "CLOUDINARY_API_KEY": "@cl_api_key",
+    "CLOUDINARY_API_SECRET": "@cl_secret"
   },
   "builds": [
     {
